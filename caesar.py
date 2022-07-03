@@ -1,4 +1,4 @@
-def caesar(text, alphabet, step, style):
+def caesar(text: str, alphabet: str, step: int, style: str):
     upper_eng_alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     lower_eng_alphabet = 'abcdefghijklmnopqrstuvwxyz'
     upper_rus_alphabet = 'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'
